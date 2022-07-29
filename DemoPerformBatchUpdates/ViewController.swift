@@ -69,9 +69,11 @@ class ViewController: UIViewController {
             model.remove(at: 1)
             model.remove(at: 1)
 
-            let indexPaths = [IndexPath(item: 1, section: 0),
-                              IndexPath(item: 1, section: 0),
-                              IndexPath(item: 1, section: 0)]
+            let indexPaths = [
+                IndexPath(item: 1, section: 0),
+                IndexPath(item: 1, section: 0),
+                IndexPath(item: 1, section: 0)
+            ]
             collectionView.deleteItems(at: indexPaths)
         }
     }
@@ -82,9 +84,11 @@ class ViewController: UIViewController {
             model.remove(at: 2)
             model.remove(at: 1)
 
-            let indexPaths = [IndexPath(item: 3, section: 0),
-                              IndexPath(item: 2, section: 0),
-                              IndexPath(item: 1, section: 0)]
+            let indexPaths = [
+                IndexPath(item: 3, section: 0),
+                IndexPath(item: 2, section: 0),
+                IndexPath(item: 1, section: 0)
+            ]
             collectionView.deleteItems(at: indexPaths)
         }
     }
