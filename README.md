@@ -18,3 +18,7 @@ Some **behaviors** can be observed according to each sequence
 1. **Sequence 1:** Wrong Action shows wrong UI, Correct Action shows correct UI
 2. **Sequence 2:** App crashes, exception raises at the 2nd or 3rd loop.
 3. **Sequence 3:** Correct UI, app works well.
+
+The **crash** for **Sequence 2** maybe either one of these
+<img width="1624" alt="image" src="https://user-images.githubusercontent.com/109369064/181709706-462518f7-1ef1-44a9-bc0b-3eae060f59de.png">
+<img width="1624" alt="image" src="https://user-images.githubusercontent.com/109369064/181709733-5329bdf5-09ec-4cd2-a70b-5de036475a05.png">
